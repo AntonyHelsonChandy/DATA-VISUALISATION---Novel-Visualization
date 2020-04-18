@@ -1,0 +1,71 @@
+<html>
+<head>
+
+<title>World Coronavirus Dashboard</title>
+     <link rel="stylesheet" href="style.css">
+ <!-- D3.js CDN source -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src='https://d3js.org/topojson.v1.js'></script>
+<h1><u><i>World Corovirus Dashboard<i></u></h1>
+ <h2 align="left"><font color="red">CS7DS4-A-SEM202-201920: DATA VISUALISATION ASSIGNMENT</font></h2> 
+<h2 align="center">Submitted By:</h2>
+<h3 align="right">ANTONY HELSON CHANDY</h3>
+<h3 align="right">chandya@tcd.ie</h3>
+<h3 align="right">Data Science</h3>
+
+
+</head>
+
+
+
+
+
+<body>
+
+<u><h2 align="left"><font color="red"><i>Daily New Cases</i></font></u><br>The Bar graph on the right shows us the daily new coronavirus cases<br> all around the world. The bar graph is made using a month's data of <br>new infected cases around the world. The reference to data is <a href="https://www.worldometers.info/coronavirus/">here</a>.<br>The X-axis here represents the days and the Y-axis represents the count. </h2>
+<img src="covid19.png" height="250" width="250" style="float: left";>
+<div id="zip"></div>
+<hr>
+
+<u><h2 align="left"><font color="red"><i>Overall Covid-19 Status</i></u></font><br>The pie chart here represents the overall status of COVID-19 all around the world. It contains Total Active Case, Total  Deaths, Total Recovered that happened all around the world..The reference to data is <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest">here</a><br>
+<i>Total Infection=Total Active Case+Total  Deaths+Total Recovered.</i></h2>
+<img src="co.png" height="380" width="380" style="float: right";>
+<div id="zipa" align="left"></div>
+
+
+
+
+<hr>
+
+
+<h1><font color="red"><i><u>World Coronavirus</font></i></u></h1>
+
+
+<h3>Bellow, we can see the world map, in which we have done size encoding based on the total infected case for those countries. The radius of the circle is proportional to the total infected cases. If we take the mouse and hover around the circle, we can see the details regarding the particular country.The reference to data is <a href="https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest">here</a></h3>
+
+
+
+
+
+
+
+
+
+<div id="map"></div>
+
+<div id="tooltip">
+  Country: <span id="name" class="info"></span><br> 
+  Total Cases: <span id="TCases" class="info"></span><br> 
+  Total Deaths: <span id="TDeaths" class="info"></span><br> 
+  Total Recovered: <span id="TRecovered" class="info"></span><br> 
+  Active Cases: <span id="ActiveCases" class="info"></span><br> 
+
+</div>
+
+<script src="jsfile.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,71 @@
+
+body {
+ background-color:rgb(247, 247, 247);
+ text-align: center;
+}
+h1, h3, p{
+  text-align:center;
+}
+
+
+
+
+
+#tooltip {
+  text-align: left;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid black;
+  font-weight: bold;
+
+  width: auto;
+  opacity: 0;
+  color: black;
+  position: absolute;
+}
+
+
+.country:hover {
+
+
+}
+.country {
+  fill: rgb(31, 176, 0);
+  stroke: black;
+  stroke-opacity: 0.9;
+}
+
+.mango{
+
+
+
+
+margin-left: auto;
+display:block;
+}
+
+
+#zipa{
+
+
+
+margin-left: auto;
+display:block;
+
+
+}
+
+.inside{
+fill: black;
+font-weight:bold;
+}
+
+.label{
+font-size:25px;
+font-weight:bold;
+}
+
+text{
+font-weight:bold;
+}
+
