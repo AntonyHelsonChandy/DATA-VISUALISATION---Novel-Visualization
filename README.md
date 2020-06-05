@@ -5,7 +5,8 @@
   <li>First of all download or clone the file.</li>
   <li>To view the visualization, just double click on the index.html.</li>
   </ul>
-<p>
+  
+<h3>Description</h3><p>
 Here we are using an interactive explanatory data visualization to better analyze
 COVID 19 dataset. We are using the D3.js JavaScript library for implementing an
 interactive and dynamic web visualization.
